@@ -13,7 +13,7 @@ body {
 .center {
     text-align: center;
 }
-a active {
+a.active {
     color: #6A89A7
 }
 a {
@@ -86,19 +86,15 @@ table, th, td {
 .failed {
     background-color: rgba(200, 0, 0, 0.2); 
 }
-
 .pending {
     background-color: rgba(255, 255, 255, 0.1); 
 }
-
 .progress-container {
     text-align: center;
     max-width: 600px;
     margin: 50px auto;
     margin-right: 28%;
-    margin-top: 5%;
-     
-    
+    margin-top: 5%;    
 }
 .progress-container progress {
     width: 100%;
@@ -110,14 +106,11 @@ table, th, td {
     margin: 0 auto; 
     text-align: center;
 }
-
-
 .profile-list {
     background: transparent ;
     display: block ;
     padding-left: 20px ;
 }
-
 .profile-list li {
     display: list-item ;
     list-style-type: disc ;
@@ -125,17 +118,43 @@ table, th, td {
     background: transparent ;
     margin-bottom: 10px;
 }
-
-
 .profile-container img {
     display: block ;
     margin: 20px auto ;
     float: none ;
 }
-
-
 .social-links {
     text-align: center ;
     clear: both ;
     margin-top: 30px;
+}
+.small-logo{
+    width: 230px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+
+}
+
+footer {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center; 
+    margin-top: 308px; 
+    border-radius: 15px; 
+    
+}
+
+
+footer a {
+    margin: 0 15px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold;
+    display: inline-block; 
+}
+
+footer a:hover {
+    color: #ffffff; 
+    text-decoration: underline;
 }
