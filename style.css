@@ -129,10 +129,10 @@ table, th, td {
     margin-top: 30px;
 }
 .small-logo{
-    width: 230px;
-    position: fixed;
-    bottom: 25px;
+    width: 218px;
+    bottom: 2px;
     right: 20px;
+    position: fixed;
 
 }
 
