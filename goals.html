@@ -3,150 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Goals</title>
-    <style>
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        
-        body {
-            background: linear-gradient(135deg, #020024 0%, #090547 50%, #06186b 100%);
-            color: white;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        
-        nav {
-            background-color: #2c2f33;
-            margin: 15px 20px;
-            padding: 15px 25px;
-            border-radius: 12px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            gap: 25px;
-        }
-
-        nav a {
-            color: #e0e0e0;
-            text-decoration: none;
-            font-size: 1rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffffff;
-        }
-
-        
-        nav a.active {
-            color: #00bcd4;
-            font-weight: bold;
-            border-bottom: 2px solid #00bcd4;
-            padding-bottom: 5px;
-        }
-
-        
-        .content {
-            flex: 1; 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.2rem; 
-            margin-bottom: 30px;
-            letter-spacing: 1px;
-        }
-        
-        h2 {
-            font-size: 1.5rem; 
-            margin-bottom: 15px;
-        }
-
-        
-        .text-block {
-            max-width: 800px;
-        }
-
-        .text-block p {
-            font-size: 1rem; 
-            line-height: 1.6; 
-            margin-bottom: 20px;
-            color: #f0f0f0;
-        }
-
-        
-        footer {
-            background-color: #2c2f33;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 12px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 25px;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        footer a:hover {
-            color: #00bcd4;
-        }
-    </style>
+    <title>My Goals & SWOT</title>
+    <!-- CSS is linked here. No <style> blocks! -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="profile.html">Who Am I?</a></li>
-            <li><a href="why-it.html">Why IT?</a></li>
-            <li><a href="goals.html" class="active">Goals</a></li>
-            <li><a href="dashboard.html">My Dashboard</a></li>
-            <li><a href="blog.html">My Blog</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Who Am I?</a></li>
+                <li><a href="why-it.html">Why IT?</a></li>
+                <li><a href="dashboard.html">My Dashboard</a></li>
+                <li><a href="blog.html" class="active">My Blog</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="content">
-        <h1>Goals & SWOT Analysis</h1>
+        <h1 class="center">Goals & SWOT Analysis</h1>
+        <hr/>
         
-        <div class="text-block">
-            <p>As a first-year ICT student, my primary mission this year is to connect my passion for clean front-end design with effective, real-world problem solving.</p>
+        <div class="text-block" style="max-width: 800px; margin: 0 auto;">
+            <p>To ensure my study success in the HBO-ICT program, I have outlined two primary SMART goals for this year. To achieve them, I conducted a SWOT analysis to understand what internal and external factors will impact my journey.</p>
             
-            <p>To achieve this, I am continuously developing this responsive portfolio to showcase my technical growth and document my upcoming project case studies.</p>
-            
-            <p>Because I know the best development happens as a team, I am also pushing myself to break out of solo troubleshooting by actively engaging with my classmates and sharing knowledge when I make technical problems.</p>
-            
-            <p>Ultimately, this platform will serve as a transparent record of my journey, reflecting both the digital experiences I build and the teamwork skills I develop along the way.</p>
-            
-            <br>
+            <h3>My SMART Goals</h3>
+            <ul style="margin-bottom: 30px; padding-left: 20px;">
+                <li><strong>Goal 1:</strong> Pass the 45 EC Study Advice boundary by completing all core programming and project assignments with a grade of 7.0 or higher by the end of Quarter 4.</li>
+                <li><strong>Goal 2:</strong> Transition from trial-and-error HTML/CSS coding to writing functional, dynamic JavaScript by building a fully responsive web application by the end of Semester 1.</li>
+            </ul>
+
+            <h3>SWOT Analysis</h3>
+            <table class="swot-table">
+                <tr>
+                    <th class="swot-s">Strengths (Internal)</th>
+                    <th class="swot-w">Weaknesses (Internal)</th>
+                </tr>
+                <tr>
+                    <td class="swot-s">
+                        <ul>
+                            <li>Strong entrepreneurial background; I understand the business logic behind the software.</li>
+                            <li>High discipline and consistency, built through years of dedicated gym training.</li>
+                            <li>Hands-on problem solver who learns by doing.</li>
+                        </ul>
+                    </td>
+                    <td class="swot-w">
+                        <ul>
+                            <li>Starting fresh with programming, little coding experience.</li>
+                            <li>My trial-and-error learning style can sometimes be time-consuming when debugging complex issues.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="swot-o">Opportunities (External)</th>
+                    <th class="swot-t">Threats (External)</th>
+                </tr>
+                <tr>
+                    <td class="swot-o">
+                        <ul>
+                            <li>HZ's project-based curriculum fits my practical learning style perfectly.</li>
+                            <li>Collaborating with more experienced classmates during group projects.</li>
+                            <li>Massive industry demand for developers who understand business needs.</li>
+                        </ul>
+                    </td>
+                    <td class="swot-t">
+                        <ul>
+                            <li>The steep learning curve of moving from HTML to complex back-end logic.</li>
+                            <li>Balancing the heavy study workload (at least 40 hours/week) with my personal gym routine and downtime.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
         </div>
+        <a href="blog.html" class="back-btn"> Back to Blog</a>
     </main>
 
     <footer>
         <a href="https://learn.hz.nl" target="_blank">HZ learn</a>
-        <a href="https://osiris.hz.nl" target="_blank">Study Progress "Osiris"</a>
+        <a href="https://fs.myhz.nl/adfs/ls/?SAMLRequest=lZJBT4NAEIX%2FCtk7LK2UyoaSYHuwSbWkRQ%2FelmVoN4Fd3Fm09deLoLFemnidne%2FNvDcbI2%2FqlqWdPaodvHaA1jk1tUI2PCxIZxTTHCUyxRtAZgXbpw8bNvV81hpttdA1uUCuExwRjJVaEWe9WpDldpdvfT%2BaiYJzCEGU86AooiAKCz%2BqomgWzMOJ7xezohQFcZ7BYM8uSC%2FVCyB2sFZoubJ9yZ%2BG7sR3p0E%2BuWVBwG7CF%2BKsej9ScTtQR2tbZJRW6DXn44enasrLCmmNlDjpz2ZLrbBrwOzBvEkBT7vNLwnqIBV42JlKaAUnO2j02YGyUgxjKLZUjBLuhdvsO6o7qUqpDtdTKsYmZPd5nrnZdp%2BTJP4Klw2eTfLPfRqwvOSWx%2FRSJB5P%2F9iPX68yXUtxdtK61u9LA9zCgljTAaHJSP39I8kn&client-request-id=dd1097f7-0c71-43f5-1451-00800000009c&pullStatus=0" target="_blank">Study Progress "Osiris"</a>
         <a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ HBO-ICT GitHub</a>
-        <a href="https://hz.nl/over-de-hz/regelingen-documenten/onderwijs-en-examenregelingen" target="_blank">Course and Examination Regulations</a>
-        <a href="https://learn.hz.nl" target="_blank">Implementation Regulations</a>
+        <a href="https://hz.nl/en/organisation/regulations-documents" target="_blank">Course and Examination Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-GPCM-full-time-2023-2024-DEF.pdf#:~:text=This%20document%20provides%20a,board%20each%20year." target="_blank">Implementation Regulations</a>
+        <img class="small-logo" src="hzlogo.png" alt="Hz logo">
     </footer>
 </body>
 </html>

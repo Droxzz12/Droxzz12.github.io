@@ -4,133 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Future Direction</title>
-    <style>
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        
-        body {
-            background: linear-gradient(135deg, #020024 0%, #090547 50%, #06186b 100%);
-            color: white;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        
-        nav {
-            background-color: #2c2f33;
-            margin: 15px 20px;
-            padding: 15px 25px;
-            border-radius: 12px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            gap: 25px;
-        }
-
-        nav a {
-            color: #e0e0e0;
-            text-decoration: none;
-            font-size: 1rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffffff;
-        }
-
-        
-        .content {
-            flex: 1; 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.2rem;
-            margin-bottom: 30px;
-            letter-spacing: 1px;
-        }
-
-        
-        .text-block {
-            max-width: 800px;
-        }
-
-        .text-block p {
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            color: #f0f0f0;
-            text-align: left;
-        }
-
-        
-        footer {
-            background-color: #2c2f33;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 12px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 25px;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        footer a:hover {
-            color: #00bcd4;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="profile.html">Who Am I?</a></li>
-            <li><a href="why-it.html">Why IT?</a></li>
-            <li><a href="goals.html">Goals</a></li>
-            <li><a href="dashboard.html">My Dashboard</a></li>
-            <li><a href="blog.html">My Blog</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Who Am I?</a></li>
+                <li><a href="why-it.html">Why IT?</a></li>
+                <li><a href="dashboard.html">My Dashboard</a></li>
+                <li><a href="blog.html" class="active">My Blog</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="content">
-        <h1>My Future Direction</h1>
+        <h1 class="center">My Future Direction</h1>
+        <hr/>
         
-        <div class="text-block">
-            <p>I want to combine my background in economics with technology. Knowing how to build software is great, but knowing how to turn it into a business is my goal.</p>
+        <div class="text-block" style="max-width: 800px; margin: 0 auto;">
+            <p><strong>Bridging Economics and Technology</strong><br>
+            Having specialized in Entrepreneurship during my secondary education, I've always viewed technology through a business lens. Whether it is structuring a business plan or designing digital marketing materials, I realize that clean, effective front-end development is what ultimately connects a great product to its customers. My goal is to turn software into a business asset.</p>
             
-            <p>Having specialized in entrepreneurship during my high school studies, I've always viewed technology through a business lens. Whether it is structuring a business plan for a startup or designing digital marketing materials, I realize that clean, effective front-end development is what ultimately connects a great product to its customers.</p>
+            <p><strong>Data Science vs. Software Engineering</strong><br>
+            Looking ahead in the HBO-ICT program, I must eventually choose a specialization. Data Science is incredibly valuable for analyzing market trends, predicting user behavior, and driving business decisions with raw metrics. However, analyzing data is only half the battle. My true passion lies in building the actual tools that users interact with.</p>
             
-            <p>During my time in the HBO-ICT program, I plan to bridge this gap between code and commerce. I am not just learning HTML, CSS, and JavaScript to build static pages; I am learning them to create scalable, user-friendly web applications that solve real-world market problems. My ultimate direction is to become a front-end developer who doesn't just write code, but builds thriving digital experiences that make business sense.</p>
+            <p><strong>My Chosen Path: Software Engineering</strong><br>
+            Because I want to actively construct digital experiences, my future direction is firmly set on the Software Engineering track. I am not just learning HTML, CSS, and JavaScript to build static pages; my objective is to master modern web architecture to create scalable, user-friendly applications that solve real-world market problems. I aim to become a software engineer who doesn't just write code, but builds thriving platforms that make business sense.</p>
         </div>
+        <a href="blog.html" class="back-btn">Back to Blog</a>
     </main>
 
-    <footer>
+     <footer>
         <a href="https://learn.hz.nl" target="_blank">HZ learn</a>
-        <a href="https://osiris.hz.nl" target="_blank">Study Progress "Osiris"</a>
+        <a href="https://fs.myhz.nl/adfs/ls/?SAMLRequest=lZJBT4NAEIX%2FCtk7LK2UyoaSYHuwSbWkRQ%2FelmVoN4Fd3Fm09deLoLFemnidne%2FNvDcbI2%2FqlqWdPaodvHaA1jk1tUI2PCxIZxTTHCUyxRtAZgXbpw8bNvV81hpttdA1uUCuExwRjJVaEWe9WpDldpdvfT%2BaiYJzCEGU86AooiAKCz%2BqomgWzMOJ7xezohQFcZ7BYM8uSC%2FVCyB2sFZoubJ9yZ%2BG7sR3p0E%2BuWVBwG7CF%2BKsej9ScTtQR2tbZJRW6DXn44enasrLCmmNlDjpz2ZLrbBrwOzBvEkBT7vNLwnqIBV42JlKaAUnO2j02YGyUgxjKLZUjBLuhdvsO6o7qUqpDtdTKsYmZPd5nrnZdp%2BTJP4Klw2eTfLPfRqwvOSWx%2FRSJB5P%2F9iPX68yXUtxdtK61u9LA9zCgljTAaHJSP39I8kn&client-request-id=dd1097f7-0c71-43f5-1451-00800000009c&pullStatus=0" target="_blank">Study Progress "Osiris"</a>
         <a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ HBO-ICT GitHub</a>
-        <a href="https://hz.nl/over-de-hz/regelingen-documenten/onderwijs-en-examenregelingen" target="_blank">Course and Examination Regulations</a>
-        <a href="https://learn.hz.nl" target="_blank">Implementation Regulations</a>
+        <a href="https://hz.nl/en/organisation/regulations-documents" target="_blank">Course and Examination Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-GPCM-full-time-2023-2024-DEF.pdf#:~:text=This%20document%20provides%20a,board%20each%20year." target="_blank">Implementation Regulations</a>
+        
+        <img class="small-logo" src="hzlogo.png" alt="Hz logo">
     </footer>
 </body>
 </html>
